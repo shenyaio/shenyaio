@@ -1,1 +1,1 @@
-Source code for [https://shenya.io](shenya.io)
+Source code for [shenya.io](https://shenya.io)
