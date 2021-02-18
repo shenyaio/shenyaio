@@ -8,6 +8,7 @@ import * as S from "./styles";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Container = lazy(() => import("../../common/Container"));
+const Select = lazy(() => import("../../common/Select"));
 
 const Footer = ({ t }) => {
   const handleChange = (event) => {
@@ -91,14 +92,7 @@ const Footer = ({ t }) => {
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
-                  <S.LangSelect
-                    onChange={handleChange}
-                    value={i18n.language}
-                    id="select-lang"
-                  >
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                  </S.LangSelect>
+                  <Select value={i18n.language} onChange={handleChange} />
                 </S.Select>
               </Col>
             </Row>
