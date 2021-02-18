@@ -123,19 +123,15 @@ const Footer = ({ t }) => {
                 />
                 <SocialLink
                   href="https://twitter.com/Adrinlolx"
-                  src="twitter.svg"
+                  src="wechat.svg"
                 />
                 <SocialLink
                   href="https://www.linkedin.com/in/lasha-kakabadze/"
-                  src="linkedin.svg"
+                  src="sinaweibo.svg"
                 />
                 <SocialLink
                   href="https://github.com/Adrinlol/"
-                  src="instagram.svg"
-                />
-                <SocialLink
-                  href="https://medium.com/@lashakakabadze/"
-                  src="medium.svg"
+                  src="twitter.svg"
                 />
               </S.FooterContainer>
             </Row>
