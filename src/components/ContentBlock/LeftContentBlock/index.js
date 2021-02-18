@@ -1,10 +1,10 @@
-import { Row, Col } from "antd";
-import { withTranslation } from "react-i18next";
-import Slide from "react-reveal/Slide";
+import { Row, Col } from 'antd'
+import { withTranslation } from 'react-i18next'
+import Slide from 'react-reveal/Slide'
 
-import SvgIcon from "../../../common/SvgIcon";
+import SvgIcon from '../../../common/SvgIcon'
 
-import * as S from "./styles";
+import * as S from './styles'
 
 const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
   return (
@@ -28,7 +28,7 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
               <S.ServiceWrapper>
                 <Row type="flex" justify="space-between">
                   {section &&
-                    typeof section === "object" &&
+                    typeof section === 'object' &&
                     section.map((item, id) => {
                       return (
                         <Col key={id} span={11}>
@@ -36,7 +36,7 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
                           <S.MinTitle>{t(item.title)}</S.MinTitle>
                           <S.MinPara>{t(item.content)}</S.MinPara>
                         </Col>
-                      );
+                      )
                     })}
                 </Row>
               </S.ServiceWrapper>
@@ -45,7 +45,7 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
         </Col>
       </Row>
     </S.LeftContentBlock>
-  );
-};
+  )
+}
 
-export default withTranslation()(LeftContentBlock);
+export default withTranslation()(LeftContentBlock)

@@ -1,9 +1,9 @@
 const routes = [
   {
-    path: ["/", "/home"],
+    path: ['/', '/home'],
     exact: true,
-    component: "Home",
+    component: 'Home',
   },
-];
+]
 
-export default routes;
+export default routes

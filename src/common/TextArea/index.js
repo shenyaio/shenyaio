@@ -1,6 +1,6 @@
-import { withTranslation } from "react-i18next";
+import { withTranslation } from 'react-i18next'
 
-import * as S from "./styles";
+import * as S from './styles'
 
 const TextArea = ({ name, id, placeholder, onChange, t }) => (
   <S.Container>
@@ -13,6 +13,6 @@ const TextArea = ({ name, id, placeholder, onChange, t }) => (
       onChange={onChange}
     />
   </S.Container>
-);
+)
 
-export default withTranslation()(TextArea);
+export default withTranslation()(TextArea)

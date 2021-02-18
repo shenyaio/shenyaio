@@ -1,10 +1,10 @@
-import LeftContentBlock from "./LeftContentBlock";
-import RightContentBlock from "./RightContentBlock";
+import LeftContentBlock from './LeftContentBlock'
+import RightContentBlock from './RightContentBlock'
 
-const ContentBlock = (props) => {
-  if (props.type === "left") return <LeftContentBlock {...props} />;
-  if (props.type === "right") return <RightContentBlock {...props} />;
-  return null;
-};
+const ContentBlock = props => {
+  if (props.type === 'left') return <LeftContentBlock {...props} />
+  if (props.type === 'right') return <RightContentBlock {...props} />
+  return null
+}
 
-export default ContentBlock;
+export default ContentBlock

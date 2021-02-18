@@ -1,10 +1,10 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: inline-block;
   width: 100%;
   padding: 10px 5px;
-`;
+`
 
 export const Input = styled.input`
   width: 100%;
@@ -22,4 +22,4 @@ export const Input = styled.input`
   &:hover {
     border-color: #2e186a;
   }
-`;
+`

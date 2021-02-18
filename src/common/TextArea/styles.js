@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: inline-block;
   width: 100%;
   padding: 10px 5px;
   margin-bottom: -0.625rem;
-`;
+`
 
 export const TextArea = styled.textarea`
   width: 100%;
@@ -21,4 +21,4 @@ export const TextArea = styled.textarea`
   &:hover {
     border-color: #2e186a;
   }
-`;
+`
