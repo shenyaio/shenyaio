@@ -1,0 +1,71 @@
+{
+  "header": {
+    "about": "Acercade",
+    "mission": "Misión",
+    "product": "Producto",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "title": "Es Landing page template for developers & startups",
+    "text": "Es Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+    "explore": "Explorar",
+    "learnMore": "Más información"
+  },
+  "middle": {
+    "title": "Es Introduce Your Product Quickly & Effectively",
+    "text": "Es Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
+    "button": "Es Get Started"
+  },
+  "about": {
+    "title": "Es Light, Fast & Responsive",
+    "text": "Es This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+    "sectionOne": {
+      "title": "Es Why Antd?",
+      "content": "Es Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI."
+    },
+    "sectionTwo": {
+      "title": "Es Why styled-components?",
+      "content": "Es Styled Components gives you total control over your components."
+    }
+  },
+  "mission": {
+    "title": "Es Ready made sections",
+    "text": "Es Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
+  },
+  "product": {
+    "title": "Es That's about it!",
+    "text": "Es If you are familiar with React, or SPA frameworks in general, there shouldn't be any confusing part about this template, if not, you can always reach out to me and I'll try me best to answer your question."
+  },
+  "contact": {
+    "title": "Es Contact Form",
+    "text": "Es The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty.",
+    "submit": "Es Submit",
+    "message": "Es Message",
+    "messagePlaceholder": "Es Your Message",
+    "name": "Es Name",
+    "namePlaceholder": "Es Your Name",
+    "email": "Es Eamil",
+    "emailPlaceholder": "Es Your Eamil"
+  },
+  "footer": {
+    "contact": {
+      "title": "Es Tell us everything",
+      "content": "Es Do you have any question regarding the project? Feel free to reach out.",
+      "chat": "Es Let's Chat"
+    },
+    "policy": {
+      "title": "Es Policy",
+      "applicationSecurity": "Es Application Security",
+      "softwarePrinciples": "Es Software Principles"
+    },
+    "supportCenter": "Centro de Apoyo",
+    "customerSupport": "Atención al cliente",
+    "address": "HABLA A",
+    "company": "Es Company",
+    "about": "Es About",
+    "blog": "Es Blog",
+    "press": "Es Press",
+    "careersCulture": "Es Careers & Culture",
+    "language": "Es Language"
+  }
+}

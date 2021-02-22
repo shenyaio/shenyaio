@@ -1,12 +1,5 @@
 import { lazy } from 'react'
 
-import IntroContent from '../../content/IntroContent.json'
-import MiddleBlockContent from '../../content/MiddleBlockContent.json'
-import AboutContent from '../../content/AboutContent.json'
-import MissionContent from '../../content/MissionContent.json'
-import ProductContent from '../../content/ProductContent.json'
-import ContactContent from '../../content/ContactContent.json'
-
 const ContactFrom = lazy(() => import('../../components/ContactForm'))
 const ContentBlock = lazy(() => import('../../components/ContentBlock'))
 const MiddleBlock = lazy(() => import('../../components/MiddleBlock'))
@@ -20,43 +13,57 @@ const Home = () => {
       <ContentBlock
         type="right"
         first="true"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
+        title="intro.title"
+        content="intro.text"
+        button={[
+          { title: 'intro.explore' },
+          { title: 'intro.learnMore', color: '#fff' },
+        ]}
         icon="developer.svg"
         id="intro"
       />
       <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+        title={'middle.title'}
+        content={'middle.text'}
+        button={'middle.button'}
       />
       <ContentBlock
         type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
+        title={'about.title'}
+        content={'about.text'}
+        section={[
+          {
+            title: 'about.sectionOne.title',
+            content: 'about.sectionOne.content',
+            icon: 'notes.svg',
+          },
+          {
+            title: 'about.sectionTwo.title',
+            content: 'about.sectionTwo.content',
+            icon: 'notes.svg',
+          },
+        ]}
         icon="graphs.svg"
         id="about"
       />
       <ContentBlock
         type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
+        title={'mission.title'}
+        content={'mission.text'}
         icon="product-launch.svg"
         id="mission"
       />
 
       <ContentBlock
         type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
+        title={'product.title'}
+        content={'product.text'}
         icon="waving.svg"
         id="product"
       />
       <ContactFrom
-        title={ContactContent.title}
-        content={ContactContent.text}
+        title={'contact.title'}
+        content={'contact.text'}
         id="contact"
       />
     </Container>

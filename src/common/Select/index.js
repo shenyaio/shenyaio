@@ -64,7 +64,6 @@ const Select = ({ value, onChange }) => {
   return (
     <FormControl variant="outlined">
       <MuiSelect
-        disableUnderline
         classes={{ root: classes.select }}
         IconComponent={ExpandMoreIcon}
         MenuProps={menuProps}
