@@ -5,7 +5,7 @@ const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: Palatino, Optima, Georgia, serif;
     }
 
 
@@ -28,7 +28,7 @@ const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: Palatino, Optima, Georgia, serif;
         color: #0a1f44;
         font-size: 2.575rem;
         line-height: 3.0625rem;
