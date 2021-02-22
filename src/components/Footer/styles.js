@@ -55,6 +55,12 @@ export const Extra = styled.section`
 export const LogoContainer = styled.div`
   display: flex;
   position: relative;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  color: black;
+  font-variant-caps: small-caps;
+  font-weight: bold;
 `
 
 export const Select = styled.div`
@@ -115,7 +121,7 @@ export const FooterContainer = styled.div`
 
   @media screen and (max-width: 414px) {
     padding: 2rem 0;
-    padding-right: 50%;
+    padding-right: 30%;
   }
 
   div {

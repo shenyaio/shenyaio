@@ -6,9 +6,15 @@ export const Header = styled.header`
   padding: 1rem 0.5rem;
 `
 
-export const LogoContainer = styled(Link)`
+export const TitleContainer = styled(Link)`
   display: flex;
-  padding-top: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  font-size: 42px;
+  color: black;
+  font-variant-caps: small-caps;
+  font-weight: bold;
 `
 
 export const Container = styled.div`
