@@ -15,7 +15,8 @@ const TextArea = lazy(() => import('../../common/TextArea'))
 
 const Contact = ({ title, id, t }) => {
   const { values, errors, handleChange, handleSubmit, submitting } = useForm(
-    validate
+    validate,
+    t
   )
 
   const ValidationType = ({ type }) => {

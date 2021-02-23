@@ -39,5 +39,9 @@
     "addressCity": "中国武汉市",
     "addressDetail": "江汉区唐家墩路 7 号",
     "language": "语言"
+  },
+  "message": {
+    "title": "完成",
+    "description": "您已经成功提交信息！"
   }
 }

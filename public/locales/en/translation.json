@@ -39,5 +39,9 @@
     "addressCity": "Wuhan, China",
     "addressDetail": "No.7, Tangjiadun Road, Jianghan District",
     "language": "Language"
+  },
+  "message": {
+    "title": "Success",
+    "description": "Your message has been sent!"
   }
 }

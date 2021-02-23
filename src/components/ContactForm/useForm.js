@@ -8,7 +8,7 @@ const initialValues = {
   message: '',
 }
 
-const useForm = validate => {
+const useForm = (validate, t) => {
   const [values, setValues] = useState(initialValues)
   const [errors, setErrors] = useState({})
   const [shouldSubmit, setShouldSubmit] = useState(false)
@@ -16,8 +16,8 @@ const useForm = validate => {
 
   const openNotificationWithIcon = type => {
     notification[type]({
-      message: 'Success',
-      description: 'Your message has been sent!',
+      message: t('message.title'),
+      description: t('message.description'),
     })
   }
 
