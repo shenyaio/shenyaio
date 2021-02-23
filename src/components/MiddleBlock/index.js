@@ -22,6 +22,9 @@ const MiddleBlock = ({ id, title, t }) => {
                 <a className="client" href="https://www.world-flags.cn/">
                   World Flags
                 </a>
+                <span className="client">奇虎360科技有限公司</span>
+                <span className="client">华旭基业科技有限公司</span>
+                <span className="client">万丰石化有限公司</span>
                 <span className="client">武汉朗耀兴合科技有限公司</span>
               </S.ClientContainer>
             </Col>
