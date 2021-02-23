@@ -107,19 +107,19 @@ const Footer = ({ t }) => {
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                  href="https://github.com/shenyaio"
                   src="github.svg"
                 />
                 <SocialLink
-                  href="https://twitter.com/Adrinlolx"
-                  src="wechat.svg"
-                />
-                <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
+                  href="https://weibo.com/u/7559647968"
                   src="sinaweibo.svg"
                 />
                 <SocialLink
-                  href="https://github.com/Adrinlol/"
+                  href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNDIxMTc2MA#wechat_redirect"
+                  src="wechat.svg"
+                />
+                <SocialLink
+                  href="https://twitter.com/shenyaio"
                   src="twitter.svg"
                 />
               </S.FooterContainer>
