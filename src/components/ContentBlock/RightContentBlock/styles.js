@@ -5,7 +5,10 @@ export const RightBlockContainer = styled.section`
   padding: 10rem 0 8rem;
 
   @media only screen and (max-width: 768px) {
-    padding: 8rem 0 6rem;
+    padding: 0 0 4rem;
+    & img {
+      display: none;
+    }
   }
 `
 

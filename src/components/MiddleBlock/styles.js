@@ -8,7 +8,7 @@ export const MiddleBlock = styled.section`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    padding: 5.5rem 0 3rem;
+    padding: 0 0 4rem;
   }
 `
 
@@ -30,7 +30,7 @@ export const ClientContainer = styled.div`
   margin-top: 16px;
 
   & .client {
-    font-size: 21px;
+    font-size: 18px;
     margin: 8px 0;
   }
 `

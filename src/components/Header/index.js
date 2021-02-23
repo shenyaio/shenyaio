@@ -73,7 +73,7 @@ const Header = ({ t }) => {
             <Col style={{ marginBottom: '2.5rem' }}>
               <S.Label onClick={onClose}>
                 <Col span={12}>
-                  <S.Menu>Menu</S.Menu>
+                  <S.Menu>{t('header.menu')}</S.Menu>
                 </Col>
                 <Col span={12}>
                   <S.Outline padding="true" />
