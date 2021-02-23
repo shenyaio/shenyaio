@@ -23,3 +23,13 @@ export const ContentWrapper = styled.div`
     max-width: 100%;
   }
 `
+
+export const ClientContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  & .client {
+    font-size: 21px;
+    margin: 8px 0;
+  }
+`

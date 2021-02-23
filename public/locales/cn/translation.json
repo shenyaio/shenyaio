@@ -1,0 +1,42 @@
+{
+  "header": {
+    "about": "关于",
+    "mission": "宗旨",
+    "client": "合作伙伴",
+    "contact": "联系我们"
+  },
+  "intro": {
+    "title": "按需获得专业的敏捷开发团队",
+    "text": "在深雅我们专注于以高效率来设计、构建、呈现产品",
+    "explore": "探索",
+    "learnMore": "更多"
+  },
+  "about": {
+    "title": "关于我们",
+    "text": "武汉深雅信息技术有限公司是一家集企业软件开发及运营、信息系统集成、技术应用服务的高新技术企业。关注和致力于企业信息化的规划、建设与发展。"
+  },
+  "mission": {
+    "title": "我们的宗旨",
+    "text": "我们关注和致力于企业信息化的规划、建设与发展。我们与客户形成密切持久的合作关系，为客户提供具有前瞻性、创造性、针对性和易实施性的企业信息化解决方案。公司秉持“至诚、稳健、卓越”的经营理念，砥砺前行，为客户创造价值，做客户信赖的企业。"
+  },
+  "client": {
+    "title": "合作伙伴"
+  },
+  "contact": {
+    "title": "联系我们",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "message": "信息",
+    "messagePlaceholder": "您的信息",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "email": "电子邮箱",
+    "emailPlaceholder": "您的电子邮箱地址"
+  },
+  "footer": {
+    "address": "地址",
+    "addressCity": "中国武汉市",
+    "addressDetail": "江汉区唐家墩路 7 号",
+    "language": "语言"
+  }
+}

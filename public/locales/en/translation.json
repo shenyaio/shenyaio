@@ -2,71 +2,41 @@
   "header": {
     "about": "About",
     "mission": "Mission",
-    "product": "Product",
+    "client": "Clients",
     "contact": "Contact"
   },
   "intro": {
-    "title": "Landing page template for developers & startups",
-    "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+    "title": "Get a world-class agile product team, on demand",
+    "text": "At Shenya we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency",
     "explore": "Explore",
     "learnMore": "Learn More"
   },
-  "middle": {
-    "title": "Introduce Your Product Quickly & Effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get Started"
-  },
   "about": {
-    "title": "Light, Fast & Responsive",
-    "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
-    "sectionOne": {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI."
-    },
-    "sectionTwo": {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components."
-    }
+    "title": "About Us",
+    "text": "Wuhan Shenya Information Technology Co., Ltd. is a high-tech enterprise that integrating enterprise software DevOps, information system integration, and technology application services. We are concerned about and committed to the planning, construction and development of enterprise informatization."
   },
   "mission": {
-    "title": "Ready made sections",
-    "text": "Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
+    "title": "Our Mission",
+    "text": "We are concerned about and committed to the planning, construction and development of enterprise informatization. We form close and lasting relationships with our customers and provide them with forward-looking, creative, targeted and easy-to-implement enterprise informatization solutions. The company upholds the business philosophy of 'Sincerity, Stability and Excellence', and strives to create value for our customers and be a company that they trust."
   },
-  "product": {
-    "title": "That's about it!",
-    "text": "If you are familiar with React, or SPA frameworks in general, there shouldn't be any confusing part about this template, if not, you can always reach out to me and I'll try me best to answer your question."
+  "client": {
+    "title": "Our Clients"
   },
   "contact": {
-    "title": "Contact Form",
-    "text": "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty.",
+    "title": "Contact Us",
     "submit": "Submit",
     "submitting": "Submitting...",
     "message": "Message",
     "messagePlaceholder": "Your Message",
     "name": "Name",
     "namePlaceholder": "Your Name",
-    "email": "Eamil",
-    "emailPlaceholder": "Your Eamil"
+    "email": "Email",
+    "emailPlaceholder": "Your Email"
   },
   "footer": {
-    "contact": {
-      "title": "Tell us everything",
-      "content": "Do you have any question regarding the project? Feel free to reach out.",
-      "chat": "Let's Chat"
-    },
-    "policy": {
-      "title": "Policy",
-      "applicationSecurity": "Application Security",
-      "softwarePrinciples": "Software Principles"
-    },
-    "supportCenter": "Support Center",
-    "customerSupport": "Customer Support",
-    "address": "ADDRESS",
-    "company": "Company",
-    "about": "About",
-    "blog": "Blog",
-    "press": "Press",
-    "careersCulture": "Careers & Culture",
+    "address": "Address",
+    "addressCity": "Wuhan, China",
+    "addressDetail": "No.7, Tangjiadun Road, Jianghan District",
     "language": "Language"
   }
 }

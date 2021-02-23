@@ -13,7 +13,7 @@ const Input = lazy(() => import('../../common/Input'))
 const Button = lazy(() => import('../../common/Button'))
 const TextArea = lazy(() => import('../../common/TextArea'))
 
-const Contact = ({ title, content, id, t }) => {
+const Contact = ({ title, id, t }) => {
   const { values, errors, handleChange, handleSubmit, submitting } = useForm(
     validate
   )
@@ -34,7 +34,7 @@ const Contact = ({ title, content, id, t }) => {
       <S.Contact>
         <Row type="flex" justify="space-between" align="middle">
           <Col lg={12} md={11} sm={24}>
-            <Block padding={true} title={title} content={content} />
+            <Block padding={true} title={title} />
           </Col>
           <Col lg={12} md={12} sm={24}>
             <S.FormGroup autoComplete="off" onSubmit={handleSubmit}>

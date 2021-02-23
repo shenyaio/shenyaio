@@ -35,54 +35,9 @@ const Footer = ({ t }) => {
           <Container>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Language>{t('header.contact')}</S.Language>
-                <S.Large to="/">{t('footer.contact.title')}</S.Large>
-                <S.Para>{t('footer.contact.content')}</S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
-                  <S.Chat>{t('footer.contact.chat')}</S.Chat>
-                </a>
-              </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t('footer.policy.title')}</S.Title>
-                <S.Large to="/" left="true">
-                  {t('footer.policy.applicationSecurity')}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t('footer.policy.softwarePrinciples')}
-                </S.Large>
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
-                <S.Large left="true" to="/">
-                  {t('footer.supportCenter')}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t('footer.customerSupport')}
-                </S.Large>
-              </Col>
-            </Row>
-            <Row type="flex" justify="space-between">
-              <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Empty />
                 <S.Language>{t('footer.address')}</S.Language>
-                <S.Para>Rancho Santa Margarita</S.Para>
-                <S.Para>2131 Elk Street</S.Para>
-                <S.Para>California</S.Para>
-              </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t('footer.company')}</S.Title>
-                <S.Large left="true" to="/">
-                  {t('footer.about')}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t('footer.blog')}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t('footer.press')}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t('footer.careersCulture')}
-                </S.Large>
+                <S.Para>{t('footer.addressDetail')}</S.Para>
+                <S.Para>{t('footer.addressCity')}</S.Para>
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>

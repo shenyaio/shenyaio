@@ -22,27 +22,10 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-      <MiddleBlock
-        title={'middle.title'}
-        content={'middle.text'}
-        button={'middle.button'}
-      />
       <ContentBlock
         type="left"
         title={'about.title'}
         content={'about.text'}
-        section={[
-          {
-            title: 'about.sectionOne.title',
-            content: 'about.sectionOne.content',
-            icon: 'notes.svg',
-          },
-          {
-            title: 'about.sectionTwo.title',
-            content: 'about.sectionTwo.content',
-            icon: 'notes.svg',
-          },
-        ]}
         icon="graphs.svg"
         id="about"
       />
@@ -53,19 +36,8 @@ const Home = () => {
         icon="product-launch.svg"
         id="mission"
       />
-
-      <ContentBlock
-        type="left"
-        title={'product.title'}
-        content={'product.text'}
-        icon="waving.svg"
-        id="product"
-      />
-      <ContactFrom
-        title={'contact.title'}
-        content={'contact.text'}
-        id="contact"
-      />
+      <MiddleBlock title={'client.title'} id="client" />
+      <ContactFrom title={'contact.title'} id="contact" />
     </Container>
   )
 }

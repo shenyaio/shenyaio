@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 const languageSet = [
-  { label: 'Español', value: 'es' },
+  { label: '中文', value: 'cn' },
   { label: 'English', value: 'en' },
 ]
 
