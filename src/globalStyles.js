@@ -1,14 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 const Styles = createGlobalStyle`
-
-    body,
-    html,
-    a {
-        font-family: Palatino, Optima, Georgia, serif;
-    }
-
-
     body {
         margin:0;
         padding:0;
@@ -28,7 +20,6 @@ const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: Palatino, Optima, Georgia, serif;
         color: #0a1f44;
         font-size: 2.575rem;
         line-height: 3.0625rem;

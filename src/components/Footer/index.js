@@ -58,7 +58,7 @@ const Footer = ({ t }) => {
               align="middle"
               style={{ paddingTop: '3rem' }}>
               <S.NavLink to="/">
-                <S.LogoContainer>Shenya</S.LogoContainer>
+                <S.LogoContainer className="serif">Shenya</S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink

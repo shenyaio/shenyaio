@@ -54,7 +54,7 @@ const Header = ({ t }) => {
     <S.Header>
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
-          <S.TitleContainer to="/" aria-label="homepage">
+          <S.TitleContainer to="/" aria-label="homepage" className="serif">
             Shenya
           </S.TitleContainer>
           <S.NotHidden>

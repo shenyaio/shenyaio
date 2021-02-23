@@ -27,6 +27,7 @@ export const ContentWrapper = styled.div`
 export const ClientContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 16px;
 
   & .client {
     font-size: 21px;

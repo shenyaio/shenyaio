@@ -8,7 +8,7 @@ const ScrollToTop = lazy(() => import('../../common/ScrollToTop'))
 
 const Home = () => {
   return (
-    <Container>
+    <Container className="typo">
       <ScrollToTop />
       <ContentBlock
         type="right"
