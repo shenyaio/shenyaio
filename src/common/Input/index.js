@@ -2,7 +2,7 @@ import { withTranslation } from 'react-i18next'
 
 import * as S from './styles'
 
-const Input = ({ id, name, placeholder, onChange, t }) => (
+const Input = ({ id, name, placeholder, value, onChange, t }) => (
   <S.Container>
     <label htmlFor={name}>{t(id)}</label>
     <S.Input
@@ -11,6 +11,7 @@ const Input = ({ id, name, placeholder, onChange, t }) => (
       name={name}
       id={name}
       onChange={onChange}
+      value={value}
     />
   </S.Container>
 )

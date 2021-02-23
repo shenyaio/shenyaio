@@ -2,10 +2,17 @@ import { useState, useEffect } from 'react'
 import { notification } from 'antd'
 import axios from 'axios'
 
+const initialValues = {
+  name: '',
+  email: '',
+  message: '',
+}
+
 const useForm = validate => {
-  const [values, setValues] = useState({})
+  const [values, setValues] = useState(initialValues)
   const [errors, setErrors] = useState({})
   const [shouldSubmit, setShouldSubmit] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
 
   const openNotificationWithIcon = type => {
     notification[type]({
@@ -17,14 +24,16 @@ const useForm = validate => {
   const handleSubmit = event => {
     event.preventDefault()
     setErrors(validate(values))
+    setSubmitting(true)
     // Your url for API
-    const url = ''
+    const url = 'https://formspree.io/f/meqpwbpr'
     if (Object.keys(values).length === 3) {
       axios
         .post(url, {
           ...values,
         })
         .then(() => {
+          setSubmitting(false)
           setShouldSubmit(true)
         })
     }
@@ -32,7 +41,7 @@ const useForm = validate => {
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && shouldSubmit) {
-      setValues('')
+      setValues(initialValues)
       openNotificationWithIcon('success')
     }
   }, [errors, shouldSubmit])
@@ -51,6 +60,7 @@ const useForm = validate => {
     handleSubmit,
     values,
     errors,
+    submitting,
   }
 }
 

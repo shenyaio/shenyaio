@@ -14,7 +14,9 @@ const Button = lazy(() => import('../../common/Button'))
 const TextArea = lazy(() => import('../../common/TextArea'))
 
 const Contact = ({ title, content, id, t }) => {
-  const { values, errors, handleChange, handleSubmit } = useForm(validate)
+  const { values, errors, handleChange, handleSubmit, submitting } = useForm(
+    validate
+  )
 
   const ValidationType = ({ type }) => {
     const ErrorMessage = errors[type]
@@ -42,7 +44,7 @@ const Contact = ({ title, content, id, t }) => {
                   name="name"
                   id="contact.name"
                   placeholder="contact.namePlaceholder"
-                  value={values.name || ''}
+                  value={values.name}
                   onChange={handleChange}
                 />
                 <ValidationType type="name" />
@@ -53,7 +55,7 @@ const Contact = ({ title, content, id, t }) => {
                   name="email"
                   id="contact.email"
                   placeholder="contact.emailPlaceholder"
-                  value={values.email || ''}
+                  value={values.email}
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
@@ -61,7 +63,7 @@ const Contact = ({ title, content, id, t }) => {
               <Col span={24}>
                 <TextArea
                   placeholder="contact.messagePlaceholder"
-                  value={values.message || ''}
+                  value={values.message}
                   name="message"
                   id="contact.message"
                   onChange={handleChange}
@@ -69,8 +71,8 @@ const Contact = ({ title, content, id, t }) => {
                 <ValidationType type="message" />
               </Col>
               <S.ButtonContainer>
-                <Button name="submit" type="submit">
-                  {t('contact.submit')}
+                <Button name="submit" type="submit" disabled={submitting}>
+                  {submitting ? t('contact.submitting') : t('contact.submit')}
                 </Button>
               </S.ButtonContainer>
             </S.FormGroup>
