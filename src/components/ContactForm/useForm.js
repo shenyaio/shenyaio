@@ -44,6 +44,7 @@ const useForm = (validate, t) => {
       setValues(initialValues)
       openNotificationWithIcon('success')
     }
+    // eslint-disable-next-line
   }, [errors, shouldSubmit])
 
   const handleChange = event => {

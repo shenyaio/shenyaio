@@ -5,6 +5,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 const languageSet = [
   { label: '中文', value: 'cn' },
+  { label: '日本語', value: 'jp' },
   { label: 'English', value: 'en' },
 ]
 
