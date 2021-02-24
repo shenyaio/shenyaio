@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-shenyaio-dev-211544-authRole",
+            "UnauthRoleArn": "arn:aws:iam::488885448835:role/amplify-shenyaio-dev-211544-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::488885448835:role/amplify-shenyaio-dev-211544-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-shenyaio-dev-211544-deployment",
+            "UnauthRoleName": "amplify-shenyaio-dev-211544-unauthRole",
+            "StackName": "amplify-shenyaio-dev-211544",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:488885448835:stack/amplify-shenyaio-dev-211544/07bf49b0-769a-11eb-9bfe-0a26a9f61be0",
+            "AmplifyAppId": "dhxu8abn2wuo8"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dhxu8abn2wuo8",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
