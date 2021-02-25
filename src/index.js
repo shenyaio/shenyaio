@@ -8,10 +8,6 @@ import Router from './router'
 import i18n from './translation'
 import * as serviceWorker from './serviceWorker'
 
-import Amplify from 'aws-amplify'
-import awsExports from './aws-exports'
-Amplify.configure(awsExports)
-
 const App = () => (
   <BrowserRouter>
     <I18nextProvider i18n={i18n}>

@@ -9,7 +9,6 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
     "antd": "^4.10.3",
-    "aws-amplify": "^3.3.20",
     "axios": "^0.21.1",
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
