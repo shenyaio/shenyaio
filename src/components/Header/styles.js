@@ -15,6 +15,12 @@ export const TitleContainer = styled(Link)`
   color: black;
   font-variant-caps: small-caps;
   font-weight: bold;
+
+  @media only screen and (max-width: 768px) {
+    & img {
+      height: 30px;
+    }
+  }
 `
 
 export const Container = styled.div`

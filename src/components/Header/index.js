@@ -5,6 +5,7 @@ import { withTranslation } from 'react-i18next'
 
 import * as S from './styles'
 
+const SvgIcon = lazy(() => import('../../common/SvgIcon'))
 const Button = lazy(() => import('../../common/Button'))
 
 const Header = ({ t }) => {
@@ -54,8 +55,8 @@ const Header = ({ t }) => {
     <S.Header>
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
-          <S.TitleContainer to="/" aria-label="homepage" className="serif">
-            Shenya
+          <S.TitleContainer to="/" aria-label="homepage">
+            <SvgIcon src="logo.svg" height="60px" />
           </S.TitleContainer>
           <S.NotHidden>
             <MenuItem />

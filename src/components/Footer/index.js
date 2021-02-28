@@ -58,7 +58,13 @@ const Footer = ({ t }) => {
               align="middle"
               style={{ paddingTop: '3rem' }}>
               <S.NavLink to="/">
-                <S.LogoContainer className="serif">Shenya</S.LogoContainer>
+                <S.LogoContainer className="serif">
+                  <SvgIcon
+                    src="logo-en.svg"
+                    aria-label="homepage"
+                    height="30px"
+                  />
+                </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
