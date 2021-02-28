@@ -1,4 +1,9 @@
 import { lazy } from 'react'
+import { configResponsive, useResponsive } from 'ahooks'
+
+configResponsive({
+  middle: 768,
+})
 
 const ContactFrom = lazy(() => import('../../components/ContactForm'))
 const ContentBlock = lazy(() => import('../../components/ContentBlock'))
@@ -7,11 +12,17 @@ const Container = lazy(() => import('../../common/Container'))
 const ScrollToTop = lazy(() => import('../../common/ScrollToTop'))
 
 const Home = () => {
+  const responsive = useResponsive()
+
+  const responsiveType = type => {
+    return responsive.middle ? 'left' : type
+  }
+
   return (
     <Container className="typo">
       <ScrollToTop />
       <ContentBlock
-        type="right"
+        type={responsiveType('right')}
         first="true"
         title="intro.title"
         content="intro.text"
@@ -23,14 +34,14 @@ const Home = () => {
         id="intro"
       />
       <ContentBlock
-        type="left"
+        type={responsiveType('left')}
         title={'about.title'}
         content={'about.text'}
         icon="graphs.svg"
         id="about"
       />
       <ContentBlock
-        type="right"
+        type={responsiveType('right')}
         title={'mission.title'}
         content={'mission.text'}
         icon="product-launch.svg"
