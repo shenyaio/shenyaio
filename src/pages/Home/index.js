@@ -15,7 +15,7 @@ const Home = () => {
   const responsive = useResponsive()
 
   const responsiveType = type => {
-    return responsive.middle ? 'left' : type
+    return responsive.middle ? type : 'left'
   }
 
   return (
