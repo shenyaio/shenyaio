@@ -6,12 +6,15 @@ import 'typo.css'
 
 import Router from './router'
 import i18n from './translation'
+import { ViewportProvider } from './hooks/useViewport'
 import * as serviceWorker from './serviceWorker'
 
 const App = () => (
   <BrowserRouter>
     <I18nextProvider i18n={i18n}>
-      <Router />
+      <ViewportProvider>
+        <Router />
+      </ViewportProvider>
     </I18nextProvider>
   </BrowserRouter>
 )

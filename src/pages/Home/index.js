@@ -1,9 +1,5 @@
 import { lazy } from 'react'
-import { configResponsive, useResponsive } from 'ahooks'
-
-configResponsive({
-  middle: 768,
-})
+import { useViewport } from '../../hooks/useViewport'
 
 const ContactFrom = lazy(() => import('../../components/ContactForm'))
 const ContentBlock = lazy(() => import('../../components/ContentBlock'))
@@ -12,10 +8,10 @@ const Container = lazy(() => import('../../common/Container'))
 const ScrollToTop = lazy(() => import('../../common/ScrollToTop'))
 
 const Home = () => {
-  const responsive = useResponsive()
+  const { width } = useViewport()
 
   const responsiveType = type => {
-    return responsive.middle ? type : 'left'
+    return width > 768 ? type : 'left'
   }
 
   return (
