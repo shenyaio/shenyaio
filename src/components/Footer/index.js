@@ -58,7 +58,7 @@ const Footer = ({ t }) => {
               align="middle"
               style={{ paddingTop: '3rem' }}>
               <S.NavLink to="/">
-                <S.LogoContainer className="serif">
+                <S.LogoContainer>
                   <SvgIcon
                     src="logo-en.svg"
                     aria-label="homepage"
@@ -84,6 +84,15 @@ const Footer = ({ t }) => {
                   src="twitter.svg"
                 />
               </S.FooterContainer>
+            </Row>
+            <Row
+              type="flex"
+              justify="center"
+              align="middle"
+              style={{ paddingTop: '1rem' }}>
+              <span>
+                &copy; 2020-{new Date().getFullYear()} {t('footer.companyName')}
+              </span>
             </Row>
           </Container>
         </S.Extra>

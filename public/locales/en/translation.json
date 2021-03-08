@@ -38,7 +38,8 @@
     "address": "Address",
     "addressCity": "Wuhan, China",
     "addressDetail": "No.7, Tangjiadun Road, Jianghan District",
-    "language": "Language"
+    "language": "Language",
+    "companyName": "Wuhan Shenya Information Technology Co., Ltd"
   },
   "message": {
     "title": "Success",
