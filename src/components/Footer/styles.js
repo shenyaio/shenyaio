@@ -73,7 +73,7 @@ export const Select = styled.div`
 
 export const Para = styled.div`
   color: rgba(2, 7, 62, 0.8);
-  max-width: 340px;
+  max-width: 400px;
   font-size: 14px;
   width: 100%;
 `
