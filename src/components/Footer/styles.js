@@ -49,7 +49,7 @@ export const Extra = styled.section`
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 `
 
 export const LogoContainer = styled.div`
