@@ -16,18 +16,6 @@ export const Title = styled.h4`
   }
 `
 
-export const NavLink = styled(Link)`
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 0.625rem;
-  transition: all 0.2s ease-in-out;
-  &:hover,
-  &:active,
-  &:focus {
-    color: #15418e;
-  }
-`
-
 export const Target = styled.a`
   display: block;
   font-size: 1rem;
@@ -57,10 +45,6 @@ export const LogoContainer = styled.div`
   position: relative;
   flex-direction: column;
   justify-content: center;
-  font-size: 24px;
-  color: black;
-  font-variant-caps: small-caps;
-  font-weight: bold;
 `
 
 export const Select = styled.div`

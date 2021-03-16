@@ -57,15 +57,9 @@ const Footer = ({ t }) => {
               justify="space-between"
               align="middle"
               style={{ paddingTop: '3rem' }}>
-              <S.NavLink to="/">
-                <S.LogoContainer>
-                  <SvgIcon
-                    src="logo-en.svg"
-                    aria-label="homepage"
-                    height="30px"
-                  />
-                </S.LogoContainer>
-              </S.NavLink>
+              <S.LogoContainer>
+                &copy; 2020-{new Date().getFullYear()} {t('footer.companyName')}
+              </S.LogoContainer>
               <S.FooterContainer>
                 <SocialLink
                   href="https://github.com/shenyaio"
@@ -84,15 +78,6 @@ const Footer = ({ t }) => {
                   src="twitter.svg"
                 />
               </S.FooterContainer>
-            </Row>
-            <Row
-              type="flex"
-              justify="center"
-              align="middle"
-              style={{ paddingTop: '1rem' }}>
-              <span>
-                &copy; 2020-{new Date().getFullYear()} {t('footer.companyName')}
-              </span>
             </Row>
           </Container>
         </S.Extra>
