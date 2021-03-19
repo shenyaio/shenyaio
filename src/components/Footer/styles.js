@@ -16,18 +16,6 @@ export const Title = styled.h4`
   }
 `
 
-export const NavLink = styled(Link)`
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 0.625rem;
-  transition: all 0.2s ease-in-out;
-  &:hover,
-  &:active,
-  &:focus {
-    color: #15418e;
-  }
-`
-
 export const Target = styled.a`
   display: block;
   font-size: 1rem;
@@ -49,7 +37,7 @@ export const Extra = styled.section`
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 `
 
 export const LogoContainer = styled.div`
@@ -57,10 +45,6 @@ export const LogoContainer = styled.div`
   position: relative;
   flex-direction: column;
   justify-content: center;
-  font-size: 24px;
-  color: black;
-  font-variant-caps: small-caps;
-  font-weight: bold;
 `
 
 export const Select = styled.div`
@@ -73,7 +57,7 @@ export const Select = styled.div`
 
 export const Para = styled.div`
   color: rgba(2, 7, 62, 0.8);
-  max-width: 340px;
+  max-width: 400px;
   font-size: 14px;
   width: 100%;
 `

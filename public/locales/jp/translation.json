@@ -37,8 +37,9 @@
   "footer": {
     "address": "所在地",
     "addressCity": "中国武漢市",
-    "addressDetail": "江漢区唐家屯路7号",
-    "language": "言語"
+    "addressDetail": "江漢区唐家墩路7号 A-A2棟20階17-23室",
+    "language": "言語",
+    "companyName": "武漢深雅情報技術有限公司"
   },
   "message": {
     "title": "完了",
