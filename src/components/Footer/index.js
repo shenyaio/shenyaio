@@ -76,6 +76,17 @@ const Footer = ({ t }) => {
                 <SocialLink href="mailto:hello@shenya.io" src="email.svg" />
               </S.FooterContainer>
             </Row>
+            <Row
+              type="flex"
+              justify="center"
+              align="middle"
+              style={{ paddingTop: '1rem' }}>
+              <S.LogoContainer>
+                <a href="https://beian.miit.gov.cn/#/Integrated/index">
+                  鄂ICP备2021003873号-1
+                </a>
+              </S.LogoContainer>
+            </Row>
           </Container>
         </S.Extra>
       </Fade>
