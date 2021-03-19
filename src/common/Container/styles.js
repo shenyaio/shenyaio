@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: normal;
   position: relative;
   width: 100%;
   max-width: 1280px;
