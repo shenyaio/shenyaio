@@ -73,10 +73,7 @@ const Footer = ({ t }) => {
                   href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNDIxMTc2MA#wechat_redirect"
                   src="wechat.svg"
                 />
-                <SocialLink
-                  href="https://twitter.com/shenyaio"
-                  src="twitter.svg"
-                />
+                <SocialLink href="mailto:hello@shenya.io" src="email.svg" />
               </S.FooterContainer>
             </Row>
           </Container>
