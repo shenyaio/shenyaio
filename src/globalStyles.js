@@ -10,6 +10,11 @@ const Styles = createGlobalStyle`
         overflow-x: hidden;
     }
 
+    body, button, input, select, textarea {
+      font-family: 'Segoe UI', Candara, 'Bitstream Vera Sans', 'DejaVu Sans',
+    'Bitstream Vera Sans', 'Trebuchet MS', Verdana, 'Verdana Ref', sans-serif;
+    }
+
     a:hover {
         color: #000;
     }
@@ -24,6 +29,8 @@ const Styles = createGlobalStyle`
         font-size: 2.575rem;
         line-height: 3.0625rem;
         font-weight: bolder;
+        font-family: 'Segoe UI', Candara, 'Bitstream Vera Sans', 'DejaVu Sans',
+    'Bitstream Vera Sans', 'Trebuchet MS', Verdana, 'Verdana Ref', sans-serif;
       
         @media only screen and (max-width: 414px) {
           font-size: 1.625rem;
