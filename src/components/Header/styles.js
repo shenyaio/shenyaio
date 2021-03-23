@@ -104,7 +104,7 @@ export const Label = styled.span`
 
 export const Outline = styled(MenuOutlined)`
   font-size: 22px;
-  color: #2e186a !important;
+  color: #303f9f !important;
   padding-right: ${props => (props.padding ? '10px' : '')};
 `
 

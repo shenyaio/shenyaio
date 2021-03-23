@@ -26,21 +26,21 @@ const Home = () => {
           { title: 'intro.explore' },
           { title: 'intro.learnMore', color: '#fff' },
         ]}
-        icon="developer.svg"
+        icon="insert.svg"
         id="intro"
       />
       <ContentBlock
         type={responsiveType('left')}
         title={'about.title'}
         content={'about.text'}
-        icon="graphs.svg"
+        icon="creative.svg"
         id="about"
       />
       <ContentBlock
         type={responsiveType('right')}
         title={'mission.title'}
         content={'mission.text'}
-        icon="product-launch.svg"
+        icon="mission.svg"
         id="mission"
       />
       <MiddleBlock title={'client.title'} id="client" />

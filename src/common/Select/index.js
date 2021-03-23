@@ -1,5 +1,5 @@
 import { FormControl, Select as MuiSelect, MenuItem } from '@material-ui/core'
-import { deepPurple } from '@material-ui/core/colors'
+import { indigo } from '@material-ui/core/colors'
 import { makeStyles } from '@material-ui/core/styles'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     minWidth: '200px',
   },
   icon: {
-    color: deepPurple[500],
+    color: indigo[500],
   },
   paper: {
     borderRadius: 4,
@@ -30,14 +30,14 @@ const useStyles = makeStyles({
       paddingBottom: 12,
     },
     '& li:hover': {
-      background: deepPurple[100],
+      background: indigo[100],
     },
     '& li.Mui-selected': {
       color: 'white',
-      background: deepPurple[400],
+      background: indigo[700],
     },
     '& li.Mui-selected:hover': {
-      background: deepPurple[500],
+      background: indigo[500],
     },
   },
 })
